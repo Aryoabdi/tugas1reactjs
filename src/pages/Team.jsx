@@ -52,7 +52,6 @@ const Team = () => {
 
   return (
     <div className="container py-5">
-      {/* Team Header */}
       <div className="row text-center mb-5">
         <div className="col-lg-8 mx-auto">
           <h1 className="fw-bold mb-4">Team Kami</h1>

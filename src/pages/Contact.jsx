@@ -63,7 +63,6 @@ const Contact = () => {
 
   return (
     <div className="container py-5">
-      {/* Contact Header */}
       <div className="row text-center mb-5">
         <div className="col-lg-8 mx-auto">
           <h1 className="fw-bold mb-4">Hubungi Kami</h1>
@@ -74,7 +73,6 @@ const Contact = () => {
       </div>
 
       <div className="row">
-        {/* Contact Form */}
         <div className="col-lg-8 mb-4">
           <div className="card border-0 shadow-sm">
             <div className="card-header bg-primary text-white">
@@ -166,7 +164,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Contact Info */}
         <div className="col-lg-4">
           <div className="row">
             {contactInfo.map((info, index) => (
@@ -186,7 +183,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Operating Hours */}
       <div className="row mt-5 pt-5 border-top">
         <div className="col-lg-6 mx-auto">
           <div className="card border-0 shadow-sm">
@@ -215,7 +211,6 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* FAQ Section */}
       <div className="row mt-5">
         <div className="col-12 text-center mb-4">
           <h3 className="fw-bold">Pertanyaan Yang Sering Diajukan</h3>
